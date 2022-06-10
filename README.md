@@ -2,7 +2,8 @@
 ## Deploy
 
 ### Easy Method
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template=https://github.com/GodEyeX/op?vars=Wtf) [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GodEyeX/op)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/GodEyeX/op?vars=wtf)
+ [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/GodEyeX/op)
 
 ### Hard Method
 ```sh
