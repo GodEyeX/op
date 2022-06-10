@@ -16,7 +16,7 @@ async def StartMsg(_, m):
 			return await pbot.send_message(m.chat.id, text=ABOUT_MSG, reply_markup=ABOUT_MSG)
 		else:
 			pass
-	await pbot.send_sticker(m.chat.id, sticker='CAACAgUAAxkBAAEEx6ZiiOVbPG7LEPrT7AABBCdfTn9f3n0AAkEEAAJRSklUk7MNzCSLNuIkBA')
+	await pbot.send_sticker(m.chat.id, sticker='CAACAgUAAxkBAAEg8Ztiot0AAfsBc74zHRmc6OWf8KrDYE0AAlMFAALCjhhVF8zVnUY8dFkkBA')
 	await pbot.send_message(m.chat.id, text=START_MSG.format(m.from_user.mention), reply_markup=START_BTNS)
 	if m.chat.type == 'private':
 		await AddNewUser(str(m.from_user.username), int(m.from_user.id))
